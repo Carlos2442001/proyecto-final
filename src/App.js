@@ -26,15 +26,15 @@ function App() {
 
       <Routes>
         <Route exact path='/' element={<Home/>}/>
-        <Route exact path='/Home' element={<Home/>}/>
-        <Route exact path='/Java' element={<Java/>}/>
-        <Route exact path='/Go' element={<Go/>}/>
-        <Route exact path='/Ruby' element={<Ruby/>}/>
-        <Route exact path='/Python' element={<Python/>}/>
-        <Route exact path='/Carrusel' element={<Carrusel/>}/>
-        <Route exact path='/Formulario' element={<Formulario/>}/>
-        <Route exact path='/Videos' element={<Videos/>}/>
-        <Route exact path='/Creditos' element={<Creditos/>}/>
+        <Route exact path='Home' element={<Home/>}/>
+        <Route exact path='Java' element={<Java/>}/>
+        <Route exact path='Go' element={<Go/>}/>
+        <Route exact path='Ruby' element={<Ruby/>}/>
+        <Route exact path='Python' element={<Python/>}/>
+        <Route exact path='Carrusel' element={<Carrusel/>}/>
+        <Route exact path='Formulario' element={<Formulario/>}/>
+        <Route exact path='Videos' element={<Videos/>}/>
+        <Route exact path='Creditos' element={<Creditos/>}/>
         <Route exact path='*' element={<Error/>}/>
       </Routes>
 
